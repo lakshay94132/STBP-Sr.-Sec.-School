@@ -24,8 +24,10 @@ const Navbar = () => {
             <li className="nav-item"><Link className="nav-link" to="/facilities">Facilities</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/owner">Owner</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/owner">Academics</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/owner">Result</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/Academics">Academics</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/Result">Result</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/Gallery">Gallery</Link></li>
+
           </ul>
         </div>
       </div>
