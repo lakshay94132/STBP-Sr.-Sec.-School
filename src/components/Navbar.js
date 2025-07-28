@@ -1,13 +1,13 @@
-// src/components/Navbar.jsx
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary px-4">
-      <div className="container-fluid">
-        <Link className="navbar-brand fw-bold" to="/">Shri Trilok Bharti School</Link>
+    <nav className="navbar navbar-expand-lg navbar-dark glowing-nav px-4">
+      <div className="container-fluid d-flex justify-content-between">
+        <Link className="navbar-brand fw-bold glowing-brand" to="/">
+          STBP
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -18,16 +18,31 @@ const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/faculty">Faculty & Staff</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/facilities">Facilities</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/owner">Owner</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/Academics">Academics</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/Result">Result</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="/Gallery">Gallery</Link></li>
-
+          <ul className="navbar-nav ms-auto text-uppercase fw-semibold">
+            <li className="nav-item">
+              <Link className="nav-link nav-link-hover" to="/about">About</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link nav-link-hover" to="/faculty">Faculty</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link nav-link-hover" to="/facilities">Facilities</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link nav-link-hover" to="/contact">Contact</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link nav-link-hover" to="/owner">Owner</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link nav-link-hover" to="/Academics">Academics</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link nav-link-hover" to="/Result">Result</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link nav-link-hover" to="/Gallery">Gallery</Link>
+            </li>
           </ul>
         </div>
       </div>
