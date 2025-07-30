@@ -25,7 +25,7 @@ const resultData = [
   {
     title: "12th Class Result",
     description:
-     "The final step before college and career, marked with outstanding success. Our students lead with determination, skill, and high board scores.",
+      "The final step before college and career, marked with outstanding success. Our students lead with determination, skill, and high board scores.",
     btnText: "View Result",
     link: "https://rajeduboard.rajasthan.gov.in/RESULT2025/ARTS/Roll_Input.htm",
   },
@@ -34,7 +34,9 @@ const resultData = [
 const ResultPage = () => {
   return (
     <div className="container my-5 result-section">
-      <h2 className="text-center mb-5 kanoo-heading fw-bold text-neon">📊 Board Results</h2>
+      <h2 className="text-center mb-5 kanoo-heading fw-bold text-neon">
+        📊 Board Results
+      </h2>
       <div className="row g-4">
         {resultData.map((item, index) => (
           <div className="col-md-6" key={index}>

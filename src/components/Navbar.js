@@ -41,28 +41,44 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto text-uppercase fw-semibold">
             <li className="nav-item">
-              <Link className="nav-link nav-link-hover" to="/about">About</Link>
+              <Link className="nav-link nav-link-hover" to="/about">
+                About
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link nav-link-hover" to="/faculty">Faculty</Link>
+              <Link className="nav-link nav-link-hover" to="/faculty">
+                Faculty
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link nav-link-hover" to="/facilities">Facilities</Link>
+              <Link className="nav-link nav-link-hover" to="/facilities">
+                Facilities
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link nav-link-hover" to="/contact">Contact Us</Link>
+              <Link className="nav-link nav-link-hover" to="/contact">
+                Contact Us
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link nav-link-hover" to="/owner">Owner</Link>
+              <Link className="nav-link nav-link-hover" to="/owner">
+                Owner
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link nav-link-hover" to="/Academics">Academics</Link>
+              <Link className="nav-link nav-link-hover" to="/Academics">
+                Academics
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link nav-link-hover" to="/Result">Result</Link>
+              <Link className="nav-link nav-link-hover" to="/Result">
+                Result
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link nav-link-hover" to="/Gallery">Gallery</Link>
+              <Link className="nav-link nav-link-hover" to="/Gallery">
+                Gallery
+              </Link>
             </li>
           </ul>
         </div>

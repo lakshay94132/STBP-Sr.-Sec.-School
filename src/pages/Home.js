@@ -87,8 +87,14 @@ const Home = () => {
         </button>
       </div>
 
-      <div className="container px-4 py-5 text-center  rounded shadow " style={{backgroundColor: '#0c1a24'}} >
-        <h1 className="display-5 fw-bold kanoo-heading mb-4" style={{color: '#00f7ff', textShadow: '0 0 10px #00f7ff55'}}>
+      <div
+        className="container px-4 py-5 text-center  rounded shadow "
+        style={{ backgroundColor: "#0c1a24" }}
+      >
+        <h1
+          className="display-5 fw-bold kanoo-heading mb-4"
+          style={{ color: "#00f7ff", textShadow: "0 0 10px #00f7ff55" }}
+        >
           𝑺𝒉𝒓𝒊 𝑻𝒓𝒊𝒍𝒐𝒌 𝑩𝒉𝒂𝒓𝒕𝒊 𝑷𝒖𝒃𝒍𝒊𝒄 𝑺𝒓. 𝑺𝒆𝒄. 𝑺𝒄𝒉𝒐𝒐𝒍 (𝑱𝒂𝒏𝒅𝒂𝒘𝒂𝒍𝒊)
         </h1>
         <div className="col-lg-6 mx-auto ">

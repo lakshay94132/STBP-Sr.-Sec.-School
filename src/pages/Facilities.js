@@ -1,8 +1,6 @@
 import React from "react";
 
 const facilities = [
-  
-  
   {
     title: "Boys Common Room",
     image: "./assets/Facilities/Boys.jpg",
@@ -118,7 +116,7 @@ const facilities = [
     image: "./assets/Facilities/discussion.jpg",
     description: "Peaceful room dedicated to focused reading.",
   },
-  
+
   {
     title: "Staff Cabin",
     image: "https://via.placeholder.com/150",

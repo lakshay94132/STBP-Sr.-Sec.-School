@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import WelcomePopup from "./components/WelcomePopup";
 
 import About from "./pages/About";
 import Home from "./pages/Home";
@@ -14,7 +15,6 @@ import Owner from "./pages/Owner";
 import Academics from "./pages/Academics";
 import Result from "./pages/Result";
 import Gallery from "./pages/Gallery";
-import WelcomePopup from "./components/WelcomePopup";
 
 import "./App.css";
 

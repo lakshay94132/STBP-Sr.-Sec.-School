@@ -23,8 +23,8 @@ const WelcomePopup = () => {
           </p>
           <p>
             Thank you for reaching out to our school. We are committed to
-            nurturing young minds with moral values, modern skills, and
-            academic excellence.
+            nurturing young minds with moral values, modern skills, and academic
+            excellence.
           </p>
           <p>
             From smart classrooms to cultural development, we provide holistic
