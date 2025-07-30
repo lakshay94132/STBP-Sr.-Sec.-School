@@ -1,12 +1,15 @@
 import React from "react";
 
 const images = [
-  { src: "/images/gallery1.jpg", alt: "Annual Function" },
-  { src: "/images/gallery2.jpg", alt: "Sports Day" },
-  { src: "/images/gallery3.jpg", alt: "Classroom Activity" },
-  { src: "/images/gallery4.jpg", alt: "Science Exhibition" },
-  { src: "/images/gallery5.jpg", alt: "Cultural Dance" },
-  { src: "/images/gallery6.jpg", alt: "Art Competition" },
+  { src: "./assets/Gallary/Annual-Function.jpeg", alt: "Annual Function" },
+  { src: "./assets/Gallary/Sports-Day.jpeg", alt: "Sports Day" },
+  { src: "./assets/Gallary/Classroom-Activity.jpeg", alt: "Classroom Activity" },
+  { src: "./assets/Gallary/Science-Exibhition.jpeg", alt: "Science Exhibition" },
+  { src: "./assets/Gallary/Cultural-Dance.jpeg", alt: "Cultural Dance" },
+  { src: "./assets/Gallary/Art-Competition.jpeg", alt: "Art Competition" },
+  { src: "./assets/Gallary/Teachers-Day.jpeg", alt: "Teachers Day" },
+  { src: "./assets/Gallary/Farewell-Party.jpeg", alt: "Farewell Party" },
+  { src: "./assets/Gallary/Basant-Panchmi.jpeg", alt: "Basant Panchmi" },
 ];
 
 const GalleryPage = () => {

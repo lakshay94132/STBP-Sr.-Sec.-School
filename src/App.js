@@ -14,12 +14,14 @@ import Owner from "./pages/Owner";
 import Academics from "./pages/Academics";
 import Result from "./pages/Result";
 import Gallery from "./pages/Gallery";
+import WelcomePopup from "./components/WelcomePopup";
 
 import "./App.css";
 
 function App() {
   return (
     <Router>
+      <WelcomePopup />
       <Header />
       <Navbar />
       

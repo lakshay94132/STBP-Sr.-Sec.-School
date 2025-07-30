@@ -2,59 +2,41 @@ import React from "react";
 
 const Owner = () => {
   return (
-    <div className="container my-5 owner-section text-light">
-      <div className="row align-items-center g-5 flex-column-reverse flex-lg-row">
-        {/* LEFT SIDE – OWNER DETAILS */}
-        <div className="col-lg-6">
-          <h2 className="text-info fw-bold mb-3 kanoo-heading">
-            Founder & Visionary
-          </h2>
-          <h4 className="fw-bold text-light">Mr. Balram Limba</h4>
-          <p className="fst-italic text-warning">Principal & Owner</p>
-          <p className="fs-5 text-light">
-            Shri Trilok Bharti Public Sr. Sec. School was founded by Mr.{" "}
-            <strong className="text-neon">Balram Limba</strong> with a vision to make quality
-            education accessible in rural areas like Jandawali (Hanumangarh,
-            Rajasthan). His dedication, discipline, and determination have
-            shaped thousands of students who are now shining in various fields.
-          </p>
-          <p className="fs-5 text-light">
-            With decades of experience in educational leadership, Mr. Limba
-            believes in holistic development, moral education, and
-            technology-integrated learning. Under his guidance, the school has
-            grown from a humble beginning to a reputed institution in the
-            region.
-          </p>
-          <p className="fs-5 mb-1">
-            <strong className="text-neon">📍 Location:</strong> Jandawali, Hanumangarh, Rajasthan
-          </p>
-          <p className="fs-5 mb-1">
-            <strong className="text-neon">📞 Contact:</strong> +91 99291-42063 | +91 79769-86063
-          </p>
-          <p className="fs-5">
-            <strong className="text-neon">✉️ Email:</strong> balramlimba365@gmail.com
-          </p>
-        </div>
+    <section className="owner-wrapper py-5">
+      <div className="container">
+        <div className="row align-items-center g-5 flex-column-reverse flex-lg-row">
+          {/* LEFT – CONTENT */}
+          <div className="col-lg-6 text-light fade-in-left">
+            <h2 className="owner-heading mb-3">Founder & Visionary</h2>
+            <h4 className="fw-bold owner-name">Mr. Balram Limba</h4>
+            <p className="owner-title">Principal & Owner</p>
+            <p className="owner-text">
+              Shri Trilok Bharti Public Sr. Sec. School was founded by Mr. <strong>Balram Limba</strong> with a vision to bring excellence in education to the heart of Jandawali (Hanumangarh). His commitment to values, discipline, and student empowerment has shaped thousands of lives.
+            </p>
+            <p className="owner-text">
+              A visionary and a lifelong educator, Mr. Limba continues to inspire through his focus on holistic education, moral integrity, and innovation in teaching practices.
+            </p>
+            <p className="owner-contact"><strong className="text-neon">📍 Location:</strong> Jandawali, Hanumangarh, Rajasthan</p>
+            <p className="owner-contact"><strong className="text-neon">📞 Contact:</strong> +91 99291-42063 | +91 79769-86063</p>
+            <p className="owner-contact"><strong className="text-neon">✉️ Email:</strong> balramlimba365@gmail.com</p>
+          </div>
 
-        {/* RIGHT SIDE – IMAGE */}
-        <div className="col-lg-6 text-center">
-          <img
-            src="./assets/Owner/Owner.jpg"
-            alt="Mr. Balram Limba - Owner"
-            className="img-fluid rounded glowing-img shadow-lg Owner-image"
-            style={{
-              maxHeight: "450px",
-              objectFit: "cover",
-              border: "2px solid #0dcaf0",
-            }}
-          />
-          <p className="mt-3 text-secondary fst-italic">
-            "Education is not a business, it's a mission to build a better
-            tomorrow."
-          </p>
+          {/* RIGHT – IMAGE */}
+          <div className="col-lg-6 text-center fade-in-right">
+            <div className="owner-img-box">
+              <img
+                src="./assets/Owner/Owner.jpg"
+                alt="Mr. Balram Limba"
+                className="img-fluid rounded owner-img"
+              />
+              <p className="owner-quote">
+                "Education is not a business, it's a mission to build a better tomorrow."
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

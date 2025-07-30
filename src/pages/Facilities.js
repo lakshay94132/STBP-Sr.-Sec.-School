@@ -1,35 +1,32 @@
 import React from "react";
 
 const facilities = [
+  
+  
   {
-    title: "Free Wi-Fi",
-    image: "https://via.placeholder.com/150",
-    description: "High-speed internet access for all students and staff.",
-  },
-  {
-    title: "Water Cooler",
-    image: "https://via.placeholder.com/150",
-    description: "Clean, chilled water available at all times.",
-  },
-  {
-    title: "Parking",
-    image: "https://via.placeholder.com/150",
-    description: "Secure parking space for students and staff.",
-  },
-  {
-    title: "Charging Points",
-    image: "https://via.placeholder.com/150",
+    title: "Boys Common Room",
+    image: "./assets/Facilities/Boys.jpg",
     description: "Charging ports for mobile devices and laptops.",
   },
   {
+    title: "Girls Common Room",
+    image: "./assets/Facilities/Girls.jpg",
+    description: "A private space for girls to relax and refresh.",
+  },
+  {
     title: "Newspaper Access",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/paper.jpg",
     description: "Latest newspapers available for reading daily.",
   },
   {
     title: "CCTV Surveillance",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/cctv.png",
     description: "24x7 monitoring for enhanced security.",
+  },
+  {
+    title: "Library Facility",
+    image: "./assets/Facilities/Library.jpg",
+    description: "A vast collection of books and resources for study.",
   },
   {
     title: "Smart Classroom",
@@ -37,28 +34,43 @@ const facilities = [
     description: "Interactive learning with digital aids.",
   },
   {
-    title: "Comfortable Seating",
-    image: "https://via.placeholder.com/150",
+    title: "Comfortable Seating Chairs",
+    image: "./assets/Facilities/chair.jpeg",
     description: "Ergonomic seating for long study hours.",
   },
   {
-    title: "Air-Conditioned Hall",
+    title: "Parking",
     image: "https://via.placeholder.com/150",
+    description: "Secure parking space for students and staff.",
+  },
+  {
+    title: "Air-Conditioned Hall",
+    image: "./assets/Facilities/AC.jpg",
     description: "Cool and comfortable large hall for events.",
   },
   {
     title: "Book Issue Facility",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/stationary.png",
     description: "Borrow books easily from our collection.",
   },
   {
+    title: "Free Wi-Fi",
+    image: "./assets/Facilities/wifi.png",
+    description: "High-speed internet access for all students and staff.",
+  },
+  {
+    title: "Water Cooler",
+    image: "./assets/Facilities/WaterCooler.jpg",
+    description: "Clean, chilled water available at all times.",
+  },
+  {
     title: "Computer System for Study",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/computer.jpeg",
     description: "Access to computers for research and learning.",
   },
   {
     title: "LED Lighting",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/LED.png",
     description: "Bright and energy-efficient LED lights.",
   },
   {
@@ -73,22 +85,22 @@ const facilities = [
   },
   {
     title: "First Aid Box",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/aid-box.jpeg",
     description: "Emergency medical aid for students and staff.",
   },
   {
     title: "Power Backup",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/backup.jpeg",
     description: "Uninterrupted electricity through backup power.",
   },
   {
     title: "RO Drinking Water",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/RO.jpeg",
     description: "Pure RO water for drinking.",
   },
   {
     title: "Notice Board",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/notice-board.jpeg",
     description: "Stay updated with notices and announcements.",
   },
   {
@@ -103,14 +115,10 @@ const facilities = [
   },
   {
     title: "Reading Room",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/discussion.jpg",
     description: "Peaceful room dedicated to focused reading.",
   },
-  {
-    title: "Girls Common Room",
-    image: "https://via.placeholder.com/150",
-    description: "A private space for girls to relax and refresh.",
-  },
+  
   {
     title: "Staff Cabin",
     image: "https://via.placeholder.com/150",
@@ -132,13 +140,8 @@ const facilities = [
     description: "Projection systems for visual presentations.",
   },
   {
-    title: "Language Lab",
-    image: "https://via.placeholder.com/150",
-    description: "Special lab for improving language skills.",
-  },
-  {
     title: "Wheelchair Access",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/wheel-chair.jpeg",
     description: "Facilities designed to support differently-abled.",
   },
 ];

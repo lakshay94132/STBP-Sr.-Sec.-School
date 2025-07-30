@@ -1,14 +1,34 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  useEffect(() => {
+    const navLinks = document.querySelectorAll(".nav-link");
+    const navbarCollapse = document.querySelector(".navbar-collapse");
+
+    navLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        if (navbarCollapse.classList.contains("show")) {
+          new window.bootstrap.Collapse(navbarCollapse).hide();
+        }
+      });
+    });
+
+    // Cleanup
+    return () => {
+      navLinks.forEach((link) => {
+        link.removeEventListener("click", () => {});
+      });
+    };
+  }, []);
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark glowing-nav px-4 ">
+    <nav className="navbar navbar-expand-lg navbar-dark glowing-nav px-4">
       <div className="container-fluid d-flex justify-content-between">
         <Link className="navbar-brand fw-bold glowing-brand" to="/">
-                  <img src="./assets/Logo1.png" alt="LOGO" />
-
+          <img src="./assets/Logo1.png" alt="LOGO" />
         </Link>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -30,7 +50,7 @@ const Navbar = () => {
               <Link className="nav-link nav-link-hover" to="/facilities">Facilities</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link nav-link-hover" to="/contact">Contact</Link>
+              <Link className="nav-link nav-link-hover" to="/contact">Contact Us</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link nav-link-hover" to="/owner">Owner</Link>

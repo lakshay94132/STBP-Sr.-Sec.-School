@@ -31,7 +31,7 @@ const Home = () => {
           ></button>
         </div>
 
-        <div className="carousel-inner">
+        <div className="carousel-inner carousel-fade">
           {/* Slide 1 */}
           <div className="carousel-item active">
             <img
