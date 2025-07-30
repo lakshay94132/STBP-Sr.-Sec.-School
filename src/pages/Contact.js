@@ -4,20 +4,20 @@ const ContactUs = () => {
   return (
     <div className="container py-5 text-light section-dark">
       <h2 className="text-center mb-4 section-heading">
-        Welcome to <span className="text-neon">MAA LICHHMA DEVI LIBRARY</span>,<br />
+        Welcome to <span className="text-neon">Shri Trilok Bharti Public Sr. Sec. School</span>,<br />
         please fill the form below to get in touch.
       </h2>
 
       <div className="row g-5 align-items-center">
         {/* Image Section */}
         <div className="col-md-6 text-center">
-          <div className="kanoo-card p-3">
+          <div className="principal p-3">
             <img
-              src="/images/library.png"
+              src="./assets/Contact/principal.jpg"
               alt="Library"
-              className="img-fluid rounded-4 shadow-lg"
+              className="img-fluid rounded-4 shadow-lg principal-image"
               style={{
-                maxHeight: "400px",
+                maxHeight: "4000px",
                 objectFit: "cover",
               }}
             />
@@ -27,11 +27,20 @@ const ContactUs = () => {
         {/* Contact Info Section */}
         <div className="col-md-6">
           <div className="kanoo-card p-4">
-            <h4 className="text-neon mb-3">Er. DharamPal Limba</h4>
-            <p><strong>📍 Address:</strong><br /> Near Ayurvedic Hospital, Ward No. 7, Jandawali, Hanumangarh (335512), Rajasthan</p>
-            <p><strong>📞 Phone:</strong> +91 94134-31446</p>
-            <p><strong>📧 Email:</strong> Dharampallimba@gmail.com</p>
-            <p><strong>🕗 Opening Hours:</strong> 8:00 AM – 8:00 PM (Mon–Sun)</p>
+            <h4 className="text-neon mb-3">Mr. Balram Limba</h4>
+            <p><strong className="text-neon mb-3">📍 Address:</strong><br /> Near Ayurvedic Hospital, Ward No. 6, Jandawali, Hanumangarh (335512), Rajasthan</p>
+            <p className="mt-1"><strong className="text-neon mb-3">📞 Phone:</strong> <br/>
+              +91 99291-42063<br />
+              +91 79769-86063<br />
+              +91 94132-30527
+            </p>
+
+            <p><strong className="text-neon mb-3">📧 Email:</strong> STBPSchool@gmail.com</p>
+            <p><strong className="text-neon mb-3">🕗 Opening Hours:</strong> <br/>
+            In Summers: 8:00 AM - 2:00 PM<br/>
+            In Winters: 9:00 AM - 3:00 PM<br/>
+            Sunday: Closed
+            </p>
           </div>
         </div>
       </div>

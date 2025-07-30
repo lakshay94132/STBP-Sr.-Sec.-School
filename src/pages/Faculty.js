@@ -2,12 +2,18 @@ import React from 'react';
 
 const FacultyStaff = () => {
   const teachers = [
-    { name: "Mr. Rajesh Kumar", subject: "Mathematics", image: "/images/rajesh.jpg" },
-    { name: "Mrs. Suman Verma", subject: "Science", image: "/images/suman.jpg" },
-    { name: "Mr. Arvind Singh", subject: "English", image: "/images/arvind.jpg" },
-    { name: "Ms. Priya Yadav", subject: "Social Studies", image: "/images/priya.jpg" },
-    { name: "Mr. Sunil Sharma", subject: "Computer Science", image: "/images/sunil.jpg" },
-    { name: "Mrs. Neeta Gupta", subject: "Hindi", image: "/images/neeta.jpg" },
+    { name: "Mr. Subhash Aitan", subject: "English", image: "/images/rajesh.jpg" },
+    { name: "Mr. Kuldeep Sandhu", subject: "Hindi, Mathematics", image: "/images/suman.jpg" },
+    { name: "Mr. Bheem Singh", subject: "Social science", image: "/images/arvind.jpg" },
+    { name: "Mr. Sohan Singh", subject: "Environment study", image: "/images/priya.jpg" },
+    { name: "Mr. Tonu ", subject: "Computer Science", image: "/images/sunil.jpg" },
+    { name: "Mrs. Manjeet kour", subject: "Hindi", image: "/images/neeta.jpg" },
+    { name: "Mr. Subhash Aitan", subject: "Mathematics", image: "/images/rajesh.jpg" },
+    { name: "Mr. Kuldeep Sandhu", subject: "Science", image: "/images/suman.jpg" },
+    { name: "Mr. Bheem Singh", subject: "English", image: "/images/arvind.jpg" },
+    { name: "Mr. Sohan Singh", subject: "Social Studies", image: "/images/priya.jpg" },
+    { name: "Mr. Tonu ", subject: "Computer Science", image: "/images/sunil.jpg" },
+    { name: "Mrs. Manjeet kour", subject: "Hindi", image: "/images/neeta.jpg" },
   ];
 
   return (
@@ -20,15 +26,17 @@ const FacultyStaff = () => {
           <div className="kanoo-card">
             <img src="/images/principal.jpg" className="img-fluid rounded mb-3" alt="Principal" />
             <h4 className="text-neon">Mr. Balram Limba</h4>
-            <p className="text-muted">Principal</p>
+            <p className="text-light">Principal</p>
+            <p className="text-light">Mathematics, Science, HomeScience</p>
           </div>
         </div>
 
         <div className="col-md-6 mb-4">
           <div className="kanoo-card">
             <img src="/images/viceprincipal.jpg" className="img-fluid rounded mb-3" alt="Vice Principal" />
-            <h4 className="text-neon">Ms. Ritu Sharma</h4>
-            <p className="text-muted">Vice Principal</p>
+            <h4 className="text-neon">Mr. Daleep Singh Limba</h4>
+            <p className="text-light">Vice Principal</p>
+            <p className="text-light">Mathematics, Hindi letrature</p>
           </div>
         </div>
       </div>
@@ -45,7 +53,7 @@ const FacultyStaff = () => {
                 style={{ height: "200px", objectFit: "cover", borderRadius: "10px" }}
               />
               <h5 className="text-neon">{teacher.name}</h5>
-              <p className="text-muted">{teacher.subject}</p>
+              <p className="text-light d-flex justify-content-center">{teacher.subject}</p>
             </div>
           </div>
         ))}

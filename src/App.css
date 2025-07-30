@@ -8,16 +8,18 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background: radial-gradient(ellipse at top left, #0d0d0d, #000);
   color: #f1f1f1;
   line-height: 1.6;
   overflow-x: hidden;
+
 }
 
 .container {
   max-width: 1200px;
   margin: auto;
-  padding: 2rem 1rem;
 }
 
 /* === Utility Classes === */
@@ -34,14 +36,27 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 5px;
   background: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(10px);
-  position: sticky;
   top: 0;
   z-index: 999;
   box-shadow: 0 4px 15px rgba(0, 255, 255, 0.1);
 }
+
+.navbar img {
+  height: 70px;
+  width: 70px;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar img:hover {
+  transform: scale(1.1);
+}
+
 .navbar a {
   margin: 0 1rem;
   color: #0ff;
@@ -82,6 +97,28 @@ body {
   box-shadow: 0 8px 20px rgba(0, 255, 133, 0.4);
 }
 
+.kanoo-card img {
+  width: 330px;
+  height: 250px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.kanoo-card:hover img {
+  transform: scale(1.05);
+}
+
+.kanoo-card h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #00f7ff;
+  text-shadow: 0 0 5px #00f7ff55;
+  margin-top: 5px;
+}
+
 /* === Cards / Sections === */
 .card, .facility-card, .result-card, .kanoo-card {
   background: #1a1a1a;
@@ -103,6 +140,19 @@ body {
 .card-text {
   color: #ccc;
 }
+.principal-image {
+  width: 400px;
+  height: 450px;
+  border-radius: 10%;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+
+}
+.principal-image:hover {
+  transform: scale(1.05);
+
+}
+
 
 /* === Footer === */
 .footer, .custom-footer {
@@ -252,6 +302,32 @@ form input:focus, form textarea:focus {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+.about-container img{
+   width: 330px;
+  height: 250px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.about-container img:hover {
+  transform: scale(1.05);
+}
+
+.align-right-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.align-right-end img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+}
+
+
 .glowing-section {
   background: rgba(255, 255, 255, 0.03);
   box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
@@ -299,3 +375,52 @@ form input:focus, form textarea:focus {
     font-size: 1rem;
   }
 }
+
+.header-container {
+  background-color: #0f0f0f;
+  border: 2px solid #00f7ff;
+  border-radius: 16px;
+  box-shadow: 0 0 20px #00f7ff66, 0 0 40px #00f7ff33;
+  margin: 10px auto;
+  max-width: 1000px;
+}
+
+/* Glowing logo */
+.header-container img {
+  height: 70px;
+  width: 70px;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(0 0 5px #0ff) drop-shadow(0 0 10px #0ff);
+  transition: transform 0.3s ease-in-out;
+}
+
+.header-container img:hover {
+  transform: scale(1.1);
+}
+
+/* Multi-color gradient glowing text */
+.multicolor-heading {
+  font-size: 2.2rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #00fff7, #00f760, #f7ff00, #00c3ff, #204d4e, #538b6f, #174b58);
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: textGlow 6s linear infinite;
+  text-shadow: 0 0 10px #00f7ff80, 0 0 30px #00f7ff40;
+}
+
+/* Optional glowing animation */
+@keyframes textGlow {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 300%;
+  }
+}
+

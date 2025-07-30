@@ -4,28 +4,28 @@ const resultData = [
   {
     title: "5th Class Result",
     description:
-      "Check the Rajasthan Board 5th class result through Shala Darpan official site. Enter your roll number to view marks.",
+      "Building strong academic foundations through curiosity and guided learning. Our young minds shine bright in their first milestone!",
     btnText: "View Result",
     link: "https://rajshaladarpan.rajasthan.gov.in/Class5th_8thExam/Home/SuppResultClassVth_VIIIth.aspx",
   },
   {
     title: "8th Class Result",
     description:
-      "Access your 8th class marksheet and grades from Shala Darpan portal using your roll number.",
+      "Consistency and growth define our middle school achievements. Students demonstrate remarkable progress and discipline.",
     btnText: "View Result",
     link: "https://rajshaladarpan.rajasthan.gov.in/Class5th_8thExam/Home/Result.aspx",
   },
   {
     title: "10th Class Result",
     description:
-      "View your 10th class Rajasthan Board result. Enter your roll number to get your official result.",
+      "One of the most crucial academic stages, our students rise with confidence. A proud moment of performance and preparation for the future.",
     btnText: "View Result",
     link: "https://rajeduboard.rajasthan.gov.in/RESULT2025/SEV/Roll_Input.htm",
   },
   {
     title: "12th Class Result",
     description:
-      "Check your RBSE 12th class result stream-wise (Arts/Science/Commerce) on the official site.",
+     "The final step before college and career, marked with outstanding success. Our students lead with determination, skill, and high board scores.",
     btnText: "View Result",
     link: "https://rajeduboard.rajasthan.gov.in/RESULT2025/ARTS/Roll_Input.htm",
   },
@@ -34,13 +34,13 @@ const resultData = [
 const ResultPage = () => {
   return (
     <div className="container my-5 result-section">
-      <h2 className="text-center mb-5 kanoo-heading fw-bold">📊 Board Results</h2>
+      <h2 className="text-center mb-5 kanoo-heading fw-bold text-neon">📊 Board Results</h2>
       <div className="row g-4">
         {resultData.map((item, index) => (
           <div className="col-md-6" key={index}>
             <div className="result-card bg-dark text-light p-4 rounded-4 shadow">
               <h4 className="text-info fw-bold">{item.title}</h4>
-              <p className="text-muted">{item.description}</p>
+              <p className="text-white">{item.description}</p>
               <a
                 href={item.link}
                 target="_blank"

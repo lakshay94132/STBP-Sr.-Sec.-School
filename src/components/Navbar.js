@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark glowing-nav px-4">
+    <nav className="navbar navbar-expand-lg navbar-dark glowing-nav px-4 ">
       <div className="container-fluid d-flex justify-content-between">
         <Link className="navbar-brand fw-bold glowing-brand" to="/">
-          STBP
+                  <img src="./assets/Logo1.png" alt="LOGO" />
+
         </Link>
         <button
           className="navbar-toggler"
