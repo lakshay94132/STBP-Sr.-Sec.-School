@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -35,9 +36,9 @@ const Home = () => {
           {/* Slide 1 */}
           <div className="carousel-item active">
             <img
-              src="./assets/Logo.png"
+              src="./assets/Header/Logo.png"
               className="d-block w-100"
-              style={{ maxHeight: "500px", objectFit: "cover" }}
+              style={{ maxHeight: "500px" }}
               alt="School Building"
             />
           </div>
@@ -45,9 +46,9 @@ const Home = () => {
           {/* Slide 2 */}
           <div className="carousel-item">
             <img
-              src="./assets/Logo1.png"
+              src="./assets/Home/Sports-Day.jpeg"
               className="d-block w-100"
-              style={{ maxHeight: "500px", objectFit: "cover" }}
+              style={{ maxHeight: "500px" }}
               alt="Classroom Activity"
             />
           </div>
@@ -55,9 +56,9 @@ const Home = () => {
           {/* Slide 3 */}
           <div className="carousel-item">
             <img
-              src="./assets/Logo.png"
+              src="./assets/Home/Annual-Function.jpeg"
               className="d-block w-100"
-              style={{ maxHeight: "500px", objectFit: "cover" }}
+              style={{ maxHeight: "500px" }}
               alt="School Event"
             />
           </div>
@@ -102,13 +103,19 @@ const Home = () => {
             A place where discipline meets excellence — nurturing future leaders
             since its foundation.
           </p>
-          <div className="d-grid gap-2 d-sm-flex justify-content-sm-center ">
-            <a href="/contact" className="btn btn-primary btn-lg px-4 gap-3">
-              Contact Now
-            </a>
-            <a href="/about" className="btn btn-outline-light btn-lg px-4">
-              Learn More
-            </a>
+          <div className=" gap-4  ">
+            <Link to="/contact" className="btn btn-primary btn-sm px-4 gap-3 mx-2 my-2">
+               📞 Contact Now
+            </Link>
+            <Link to="/about" className="btn btn-outline-light btn-sm px-4 gap-3 mx-2 my-2">
+              ✨ Learn More
+            </Link>
+              <Link
+                to="/admission-form"
+                className="btn btn-primary btn-sm px-4 gap-3 mx-2 my-2"
+              >
+                📝 Apply for Admission
+              </Link>
           </div>
         </div>
       </div>
@@ -131,7 +138,7 @@ const Home = () => {
                   />
                   <h5> 🎓 Experienced Faculty</h5>
                 </div>
-                <p>Guiding students with dedication and expertise.</p>
+                <p>Guiding students with dedication and expertise. </p>
               </div>
             </div>
             <div className="col-md-4">
@@ -141,7 +148,7 @@ const Home = () => {
                   <h5>🖥️ Smart Classrooms</h5>
                 </div>
 
-                <p>Interactive learning with audio-visual aids.</p>
+                <p>Interactive learning with audio-visual aids. </p>
               </div>
             </div>
             <div className="col-md-4">
@@ -151,7 +158,9 @@ const Home = () => {
                   <h5>🏆 Top Results</h5>
                 </div>
 
-                <p>Consistently achieving 100% in board results.</p>
+                <p>
+                  Consistently achieving 100% Success rate in board results.
+                </p>
               </div>
             </div>
           </div>

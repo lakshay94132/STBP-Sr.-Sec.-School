@@ -67,7 +67,7 @@ const FacultyStaff = () => {
   return (
     <div className="container py-5 section-dark">
       <h2 className="text-center mb-5 fw-bold section-heading">
-        Faculty & Staff
+       🧑‍💼 Faculty & Staff 🧑‍💼
       </h2>
 
       {/* Principal & Vice Principal Section */}

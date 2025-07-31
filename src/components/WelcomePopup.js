@@ -16,7 +16,7 @@ const WelcomePopup = () => {
     showPopup && (
       <div className="popup-overlay">
         <div className="popup-container">
-          <h2>👋 Welcome to</h2>
+          <h2>👋 Welcome to 👋</h2>
           <h1>Shri Trilok Bharti Public Sr. Sec. School</h1>
           <p className="tagline">
             “Empowering Rural Dreams with Quality Education”

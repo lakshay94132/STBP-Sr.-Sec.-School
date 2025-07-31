@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark glowing-nav px-4">
       <div className="container-fluid d-flex justify-content-between">
         <Link className="navbar-brand fw-bold glowing-brand" to="/">
-          <img src="./assets/Logo1.png" alt="LOGO" />
+          <img src="./assets/Navbar/Logo1.png" alt="LOGO" />
         </Link>
 
         <button
@@ -50,6 +50,12 @@ const Navbar = () => {
                 Faculty
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link nav-link-hover" to="/admission">
+                Admission
+              </Link>
+            </li>
+
             <li className="nav-item">
               <Link className="nav-link nav-link-hover" to="/facilities">
                 Facilities

@@ -3,7 +3,7 @@ import React from "react";
 const Academics = () => {
   return (
     <div className="container py-5 text-light academics-page">
-      <h1 className="text-center mb-5 section-title">Academics</h1>
+      <h1 className="text-center mb-5 section-title">🎓 Academics 🎓</h1>
 
       {/* Academic Structure with Dropdowns */}
       <section className="mb-5 section-box">
@@ -162,6 +162,10 @@ const Academics = () => {
           <li>🧠 Smart class-enabled classrooms</li>
           <li>📘 Remedial classes for weak students</li>
           <li>🏅 Scholarship programs for meritorious students</li>
+          <li>🎉 Annual cultural and sports events to promote holistic development</li>
+          <li>📚 Library with a vast collection of books and digital resources</li>
+          <li>🌐 Regular workshops and seminars by industry experts</li>
+          <li>👩‍🏫 Personalized mentoring for students</li>
         </ul>
       </section>
 

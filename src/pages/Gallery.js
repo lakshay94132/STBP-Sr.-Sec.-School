@@ -22,26 +22,13 @@ const GalleryPage = () => {
   return (
     <div className="container my-5 gallery-section text-light">
       <h2 className="text-center mb-5 fw-bold text-info fade-in">
-        Our School Gallery
+        🖼️ Our School Gallery 🖼️
       </h2>
-      <div className="row g-4">
+      <div className="gallery-grid">
         {images.map((img, index) => (
-          <div key={index} className="col-md-4 fade-in">
-            <div className="card shadow-lg border-0 bg-dark glowing-card">
-              <img
-                src={img.src}
-                alt={img.alt}
-                className="card-img-top rounded-top"
-                style={{
-                  height: "250px",
-                  objectFit: "cover",
-                  borderBottom: "2px solid #0ff",
-                }}
-              />
-              <div className="card-body text-center">
-                <p className="card-text text-light">{img.alt}</p>
-              </div>
-            </div>
+          <div className="gallery-card fade-in" key={index}>
+            <img src={img.src} alt={img.alt} />
+            <div className="gallery-caption">{img.alt}</div>
           </div>
         ))}
       </div>

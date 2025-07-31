@@ -35,7 +35,7 @@ const ResultPage = () => {
   return (
     <div className="container my-5 result-section">
       <h2 className="text-center mb-5 kanoo-heading fw-bold text-neon">
-        📊 Board Results
+        📊 Board Results 📊
       </h2>
       <div className="row g-4">
         {resultData.map((item, index) => (

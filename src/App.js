@@ -9,6 +9,8 @@ import WelcomePopup from "./components/WelcomePopup";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Faculty from "./pages/Faculty.js";
+import Admission from "./pages/Admission";
+import AdmissionForm from "./pages/AdmissionForm";
 import Facilities from "./pages/Facilities";
 import Contact from "./pages/Contact";
 import Owner from "./pages/Owner";
@@ -30,6 +32,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/faculty" element={<Faculty />} />
+        <Route path="/admission" element={<Admission />} />
+        <Route path="/admission-form" element={<AdmissionForm />} />
         <Route path="/facilities" element={<Facilities />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/owner" element={<Owner />} />

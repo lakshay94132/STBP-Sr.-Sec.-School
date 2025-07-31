@@ -1,5 +1,6 @@
 // src/components/Footer.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -21,32 +22,32 @@ const Footer = () => {
             <h5 className="text-uppercase fw-bold">Quick Links</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="/" className="text-light text-decoration-none">
+                <Link to="/" className="text-light text-decoration-none">
                   🏠 Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about" className="text-light text-decoration-none">
+                <Link to="/about" className="text-light text-decoration-none">
                   📘 About
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/academics"
+                <Link
+                  to="/academics"
                   className="text-light text-decoration-none"
                 >
                   🎓 Academics
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/gallery" className="text-light text-decoration-none">
+                <Link to="/gallery" className="text-light text-decoration-none">
                   🖼️ Gallery
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="text-light text-decoration-none">
+                <Link to="/contact" className="text-light text-decoration-none">
                   📞 Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -64,35 +65,22 @@ const Footer = () => {
             <p>
               <i className="bi bi-envelope-fill me-2"></i>info@trilokschool.in
             </p>
-
-            {/* Social Icons */}
-            <div className="mt-3">
-              <a href="#" className="text-light me-3 fs-5">
-                <i className="bi bi-facebook"></i>
-              </a>
-              <a href="#" className="text-light me-3 fs-5">
-                <i className="bi bi-instagram"></i>
-              </a>
-              <a href="#" className="text-light me-3 fs-5">
-                <i className="bi bi-twitter-x"></i>
-              </a>
-              <a href="#" className="text-light fs-5">
-                <i className="bi bi-youtube"></i>
-              </a>
-            </div>
+            
           </div>
         </div>
         <hr className="border-top border-light mt-4" />
         Creted By:{" "}
         <strong>
           {" "}
-          <a href="/lakshay.html" className="text-neon">
+          <Link to="/lakshay.html" className="text-neon">
             Lakshay Limba
-          </a>{" "}
+          </Link>{" "}
         </strong>
         <p className="text-center mb-0 small">
           &copy; 2025 Shri Trilok Bharti Public Sr. Sec. School. All rights
-          reserved.
+          reserved. <br />  "Empowering students with knowledge, discipline, and
+          values." Crafted with ❤️ in Hanumangarh | Powered by Modern Education
+          & Digital Learning
         </p>
       </div>
     </footer>
