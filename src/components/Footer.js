@@ -72,9 +72,9 @@ const Footer = () => {
         Creted By:{" "}
         <strong>
           {" "}
-          <Link to="/lakshay.html" className="text-neon">
+          <a href="/lakshay.html" className="text-neon">
             Lakshay Limba
-          </Link>{" "}
+          </a>{" "}
         </strong>
         <p className="text-center mb-0 small">
           &copy; 2025 Shri Trilok Bharti Public Sr. Sec. School. All rights

@@ -111,7 +111,7 @@ body {
 }
 
 .kanoo-card img {
-  width: 330px;
+  width: 300px;
   height: 250px;
   margin-top: 20px;
   margin-bottom: 15px;
@@ -122,6 +122,7 @@ body {
 
 .kanoo-card:hover img {
   transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.3);
 }
 
 .kanoo-card h5 {
@@ -181,6 +182,45 @@ body {
   color: #66ccff;
   margin-bottom: 1rem;
 }
+.faculty-image-wrapper {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, rgba(0, 255, 255, 0.2), transparent 70%);
+  box-shadow: 0 0 25px #00ffe0, 0 0 60px rgba(0, 255, 255, 0.2);
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  transition: transform 0.3s ease;
+  border: 3px solid #00ffe0;
+}
+
+.faculty-image-wrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px #00fff7, 0 0 80px #0ff;
+}
+
+.faculty-image {
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.faculty-image-box {
+  background: linear-gradient(135deg, #0d1117, #111827);
+  width: 300px;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1), 0 0 40px rgba(0, 255, 255, 0.1);
+  margin-bottom: 12px;
+  transition: transform 0.3s ease-in-out;
+}
+
+
 
 .section-box {
   background-color: #111;

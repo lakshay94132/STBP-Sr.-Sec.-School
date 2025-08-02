@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Shri Trilok Bharti Public Sr. Sec. School – Official Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the official website of **Shri Trilok Bharti Public Sr. Sec. School**, designed and developed using **React** and **Bootstrap** to deliver a modern, fast, and responsive user experience.
 
-## Available Scripts
+## 🏫 Project Overview
 
-In the project directory, you can run:
+The website showcases detailed school information, including:
+- About Us (Vision, Mission, Principal's Message, History)
+- Academics (Streams, Class Info, Facilities)
+- Admission (Online Admission Form, Fee Structure, RTE Info)
+- Contact Page (Address, Email, Phone with Map)
+- Gallery (With animations, shadows, and responsive layouts)
+- Owner Page with Unique Layout
+- Facilities Section with Icons
+- Teacher and Staff Showcase with fallback images
+- Custom Welcome Popup with Audio + 3D Styled Modal
+- Hindi + English Mixed Content
 
-### `npm start`
+## 🚀 Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend Stack
+- ⚛️ **React JS**
+- 🧭 **React Router v6**
+- 🎨 **Bootstrap 5**
+- 💅 **Custom CSS** (`App.css`)
+- 🌈 **Neon Glow Animations & Fade Effects**
+- 📱 **Fully Responsive Design (Mobile, Tablet, Desktop)**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Assets & Utilities
+- 🖼️ Custom Image Assets (`/public/assets/...`)
+- 📝 Online Form Validation (Email, Mobile Regex)
+- 💬 Welcome Voice Message on Load (MP3 Audio)
+- 🔊 Alert popups in modal format (styled like welcome popup)
+- 📄 Readme & Source structured for GitHub Hosting/Netlify
 
-### `npm test`
+## 📁 Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+├── public/
+│   ├── assets/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Navbar, Footer, Gallery, Admission, Teachers etc.
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+```
 
-### `npm run build`
+## 🧪 Key Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ✅ Professional Navbar with auto-close on mobile after click
+- ✅ Voice Welcome Popup with animated styling
+- ✅ Fee structure in table format (shadowed)
+- ✅ Form validations (Phone, Email, Required Fields)
+- ✅ Owner page with unique layout and animation
+- ✅ Separate Admission Form Page
+- ✅ Hindi language support in Admission and About Pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧠 Future Suggestions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 🗂️ Add backend to store admission form entries
+- 📊 Admin Dashboard for managing submissions
+- 🌍 Add Google Map embedding on contact page
+- 📅 Event Calendar for students and parents
 
-### `npm run eject`
+## 🛠️ How to Run Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/lakshay94132/STBP-Sr.-Sec.-School.git
+cd STBP-Sr.-Sec.-School
+npm install
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 👤 Developer Info
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Lakshay Limba**  
+Email: lakshaylimba@gmail.com  
+GitHub: [lakshay94132](https://github.com/lakshay94132)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📝 License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2025 Shri Trilok Bharti Public Sr. Sec. School. All rights reserved.

@@ -24,46 +24,76 @@ const Admission = () => {
                   <th>Class</th>
                   <th>Admission Fee</th>
                   <th>Monthly Fee</th>
-                  <th>Annual Charges</th>
+                  <th>Annual Charges (Per 3 Month)</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>Nursery - UKG</td>
+                  <td>₹6,300</td>
+                  <td>₹600</td>
+                  <td>₹1,350</td>
+                </tr>
+                <tr>
+                  <td>Class 1–2</td>
+                  <td>₹7,500</td>
+                  <td>₹700</td>
+                  <td>₹1,900</td>
+                </tr>
+                <tr>
+                  <td>Class 3–4</td>
+                  <td>₹7,700</td>
+                  <td>₹7,50</td>
                   <td>₹2,000</td>
-                  <td>₹800</td>
-                  <td>₹1,000</td>
                 </tr>
                 <tr>
-                  <td>Class 1–5</td>
-                  <td>₹2,500</td>
-                  <td>₹900</td>
+                  <td>Class 5 </td>
+                  <td>₹7,900</td>
+                  <td>₹7,70</td>
+                  <td>₹2,100</td>
+                </tr>
+                <tr>
+                  <td>Class 6-7</td>
+                  <td>₹8,000</td>
+                  <td>₹8,00</td>
+                  <td>₹2,200</td>
+                </tr>
+                <tr>
+                  <td>Class 8 </td>
+                  <td>₹8,100</td>
+                  <td>₹8,30</td>
+                  <td>₹2,300</td>
+                </tr>
+                <tr>
+                  <td>Class 9</td>
+                  <td>₹10,100</td>
+                  <td>₹1,000</td>
+                  <td>₹2,950</td>
+                </tr>
+                <tr>
+                  <td>Class 10 </td>
+                  <td>₹12,100</td>
                   <td>₹1,200</td>
+                  <td>₹3,350</td>
                 </tr>
                 <tr>
-                  <td>Class 6–8</td>
-                  <td>₹3,000</td>
-                  <td>₹1,000</td>
-                  <td>₹1,500</td>
-                </tr>
-                <tr>
-                  <td>Class 9–10</td>
+                  <td>Class 11</td>
+                  <td>₹10,700</td>
+                  <td>₹1,300</td>
                   <td>₹3,500</td>
-                  <td>₹1,200</td>
-                  <td>₹1,800</td>
                 </tr>
                 <tr>
-                  <td>Class 11–12</td>
-                  <td>₹4,000</td>
-                  <td>₹1,400</td>
-                  <td>₹2,000</td>
+                  <td>Class 12</td>
+                  <td>₹14,400</td>
+                  <td>₹1,500</td>
+                  <td>₹4,100</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="text-warning mt-3 fst-italic">
             💡 <strong>Note:</strong> Fee may vary based on stream
-            (Science/Arts/Commerce) and optional subjects.
+            (Science/Arts/Commerce) and optional subjects. 
           </p>
         </div>
       </div>
@@ -78,7 +108,7 @@ const Admission = () => {
           आरक्षित होती हैं।
         </p>
         <ul>
-          <li>✅ निःशुल्क शिक्षा कक्षा 1 से 8 तक</li>
+          <li>✅ निःशुल्क शिक्षा कक्षा 1 से 12 तक</li>
           <li>
             ✅ पात्रता – आय प्रमाण पत्र, जाति प्रमाण पत्र, निवास प्रमाण पत्र
           </li>

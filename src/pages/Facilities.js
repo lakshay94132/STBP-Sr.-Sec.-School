@@ -28,7 +28,7 @@ const facilities = [
   },
   {
     title: " ✨ Smart Classroom",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/Class-room.jpeg",
     description: "Interactive learning with digital aids.",
   },
   {
@@ -38,7 +38,7 @@ const facilities = [
   },
   {
     title: " 🅿️ Parking",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/parking.jpeg",
     description: "Secure parking space for students and staff.",
   },
   {
@@ -96,12 +96,12 @@ const facilities = [
   },
   {
     title: " 🚻 Separate Washroom",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/washroom.jpg",
     description: "Clean and separate washrooms for boys and girls.",
   },
   {
     title: " 🧯 Fire Safety",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/Fire-Safety.jpeg",
     description: "Fire extinguishers and safety protocols in place.",
   },
   {
@@ -131,12 +131,12 @@ const facilities = [
   },
   {
     title: " 👨‍🏫 Staff Cabin",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/staff-cabin.jpeg",
     description: "Dedicated area for teachers and administration.",
   },
   {
     title: " 📽️ Projector Facility",
-    image: "https://via.placeholder.com/150",
+    image: "./assets/Facilities/projector.jpeg",
     description: "Projection systems for visual presentations.",
   },
   {
