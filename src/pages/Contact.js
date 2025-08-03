@@ -123,7 +123,7 @@ const ContactUs = () => {
 
         <div className="contact-card p-5 rounded-4 shadow-lg glass-box">
           <h4 className="text-neon mb-4">📬 Contact Form</h4>
-          <form onSubmit={handleSubmit}>
+          <form action="https://formspree.io/f/xzzvadkj" method="POST">
             <div className="row g-4">
               <div className="col-md-6">
                 <input

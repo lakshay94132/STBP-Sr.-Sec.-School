@@ -23,7 +23,11 @@ const AdmissionForm = () => {
   return (
     <div className="container py-5 text-light">
       <h2 className="text-center text-neon mb-4">📝 Admission Form 📝</h2>
-      <form onSubmit={handleSubmit} className="bg-dark p-4 rounded shadow">
+      <form
+        action="https://formspree.io/f/xzzvadkj"
+        method="POST"
+        className="bg-dark p-4 rounded shadow"
+      >
         <div className="mb-3">
           <label className="form-label">Student Name</label>
           <input
