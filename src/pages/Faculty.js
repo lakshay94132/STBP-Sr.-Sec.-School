@@ -49,7 +49,7 @@ const FacultyStaff = () => {
     {
       name: "Mrs. Shilpa Dhundhara",
       subject: "GK, Home Science",
-      image: "./assets/Faculty/shilpa.jpg",
+      image: "./assets/Fac.jpg",
       graduation: "M.A., B.ED ",
     },
     {
