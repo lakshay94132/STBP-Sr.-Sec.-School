@@ -18,10 +18,13 @@ import Academics from "./pages/Academics";
 import Result from "./pages/Result";
 import Gallery from "./pages/Gallery";
 
+import { Analytics } from "@vercel/analytics/react"
+
 import "./App.css";
 
 function App() {
   return (
+    <>
     <Router>
       <WelcomePopup />
       <Header />
@@ -43,6 +46,9 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+
+    <Analytics />
+    </>
   );
 }
 
